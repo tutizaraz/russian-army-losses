@@ -30,12 +30,12 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let matches = App::new("shoporusni CLI")
         .version("1.0")
         .author("Dmytro Barabash <dbarabashdev@gmail.com>")
-        .about("Displays the latest statistics from the Russian military.")
+        .about("A CLI tool for displaying the latest statistics of the Russian military losses")
         .arg(
             Arg::with_name("shoporusni")
                 .short('s')
                 .long("shoporusni")
-                .help("Displays the latest statistics from the Russian military."),
+                .help("A CLI tool for displaying the latest statistics of the Russian military losses"),
         )
         .get_matches();
 
