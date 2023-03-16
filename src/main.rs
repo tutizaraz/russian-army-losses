@@ -28,7 +28,7 @@ const URL: &str = "https://russianwarship.rip/api/v2/statistics/latest";
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let matches = App::new("shoporusni CLI")
-        .version("1.0")
+        .version("0.1.0")
         .author("Dmytro Barabash <dbarabashdev@gmail.com>")
         .about("A CLI tool for displaying the latest statistics of the Russian military losses")
         .arg(
