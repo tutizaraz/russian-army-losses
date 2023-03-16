@@ -1,6 +1,6 @@
 [package]
 name = "shoporusni"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Dmytro Barabash <dbarabashdev@gmail.com>"]
 edition = "2021"
 description = "A CLI tool for displaying the latest statistics of the Russian military losses"
